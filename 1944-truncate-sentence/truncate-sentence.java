@@ -6,8 +6,8 @@ class Solution {
             if(s.charAt(i)==' ')
             k--;
             if(k>0){
-            r+=s.charAt(i);}
-            i++;
+            r+=s.charAt(i);
+            i++;}
         }
         return r;
     }
